@@ -9,6 +9,7 @@ import mj.project.conferencescheduler.lecture.model.TopicReportDto;
 import mj.project.conferencescheduler.lecture.repository.LectureRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -17,6 +18,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service
+@Transactional
 public class LectureService {
 
     private final LectureRepository lectureRepository;
