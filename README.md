@@ -1,4 +1,4 @@
-# Confere scheduler
+# Confernce scheduler
 
 ## How to run
 
