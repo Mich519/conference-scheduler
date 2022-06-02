@@ -1,4 +1,4 @@
-# Confernce scheduler
+# Conference scheduler
 
 ## How to run
 
